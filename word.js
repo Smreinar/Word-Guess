@@ -23,10 +23,6 @@ function Words(word,display) {
          console.log(display.join("  "));
          
     }
-    this.letterCheck = function(letter){
-        for (i in this.letters){
-            this.letters[i].guess(letter);
-        }
-    }
+
 }
 module.exports = Words;

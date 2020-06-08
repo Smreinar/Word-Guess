@@ -30,23 +30,6 @@ var newCurrentWord = function(){
     // console.log(currentWord);
 }
 
-// wordGuessedChecker();
-function wordGuessedChecker(){
-
-
-
-    currentWord.displayWord();
-    // function isGuessed(letter){
-    //     return(letter.guessed === true);
-    // };
-    // var array = currentWord.letters();
-    // var test = array.every(isGuessed)
-    // console.log(test);
-    // if(test === true){
-    //     wordGuess = true;
-    // }
-
-}
 
 function reset(){
     inquirer
